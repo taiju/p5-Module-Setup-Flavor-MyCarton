@@ -204,7 +204,6 @@ template: |
   use strict;
   use warnings;
   use base 'Module::Setup::Plugin';
-  use Data::Dumper;
   
   sub register {
       my($self, ) = @_;
