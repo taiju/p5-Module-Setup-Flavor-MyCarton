@@ -6,11 +6,11 @@ use base 'Module::Setup::Flavor';
 
 =head1
 
-Module::Setup::Flavor::MyCarton - carton plugin for me
+Module::Setup::Flavor::MyCarton - carton flavor for me
 
 =head1 SYNOPSIS
 
-  $ module-setup --init --flavor-class=MyCarton new_flavor
+  $ module-setup --init --flavor-class=Module::Setup::Flavor::MyCarton new_flavor
 
 =cut
 
