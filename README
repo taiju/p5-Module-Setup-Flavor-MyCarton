@@ -1,0 +1,18 @@
+=head1 NAME
+
+Module::Setup::Flavor::MyCarton - carton plugin for me
+
+=head1 SYNOPSIS
+
+  $ git clone git://github.com/taiju/p5-Module-Setup-Flavor-MyCarton.git
+  $ cd p5-Module-Setup-Flavor-MyCarton/lib/
+  $ module-setup --init --flavor-class=+Module::Setup::Flavor::MyCarton new_flavor
+
+=head1 INSTRATION
+
+  $ git clone git://github.com/taiju/p5-Module-Setup-Flavor-MyCarton.git
+  $ cd p5-Module-Setup-Flavor-MyCarton/lib/
+  $ make && make test
+  $ make install
+
+=cut
