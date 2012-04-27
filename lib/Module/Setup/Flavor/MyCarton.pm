@@ -262,7 +262,7 @@ template: |
   
   =head1 SYNOPSIS
   
-    module-setup --init --plugin=VC::Git::CustomIgnore
+    module-setup --init --plugin=VC::Git::UseCustomIgnore
   
   =head1 SEE ALSO
   
