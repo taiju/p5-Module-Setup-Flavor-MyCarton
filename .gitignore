@@ -1,0 +1,9 @@
+MYMETA.*
+META.yml
+Makefile
+inc/
+pm_to_blib
+*~
+.carton/
+local/
+carton.lock
