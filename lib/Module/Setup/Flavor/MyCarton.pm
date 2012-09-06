@@ -28,6 +28,8 @@ template: |
   .carton/
   local/
   carton.lock
+  blib/
+  *.gz
 ---
 file: .shipit
 template: |
@@ -67,6 +69,7 @@ template: |
   build_requires 'Test::More';
   auto_set_repository;
   auto_include;
+
   WriteAll;
 ---
 file: MANIFEST.SKIP
@@ -75,6 +78,7 @@ template: |
   \bCVS\b
   \.svn/
   \.git/
+  \.gitignore
   ^MANIFEST\.
   ^Makefile$
   ~$
